@@ -6,19 +6,24 @@
 ul {
   list-style-type: 0;
   line-height: 40px;
-  height: 40px;
+  height: 60px;
   background-color: blue;
   text-align: center;
 }
 
-ul li{
-    display: inline-block;
-    width: 100px;
+ul li {
+  display: inline-block;
+  width: 100px;
 }
 
-ul li a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  border: solid black 1px;
+  border-radius: 2px;
 }
